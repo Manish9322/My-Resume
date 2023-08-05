@@ -1,0 +1,366 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS rules for mobile devices */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    font-size: larger;
+    background-color: #e4f8ee;
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+background-color: #006B38FF;
+color:white;
+padding: 10px 0;
+display: flex;
+flex-direction: column;
+}
+
+.sub-heading{
+    font-family: inherit;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgb(0, 107, 56);
+}
+
+.mail {
+    color: rgb(0, 107, 56);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.logo {
+    font-size: 2.5rem;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding:20px;
+    float: right;
+    
+}
+
+
+.nav-links li {
+    margin-left: 40px;
+    
+}
+
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+    padding:5px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.psl{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+
+  }
+
+.psl .list-inline-item{
+    margin-right: 10px;
+    padding-right:20px;
+
+  }
+
+.wdf{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+
+  }
+
+.wdf .list-inline-item {
+    margin-right:10px;
+    padding-right:20px;
+
+    
+  }
+
+.wdb{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+  }
+
+.wdb .list-inline-item{
+    margin-right: 10px;
+    padding-right:20px;
+    font-size: 80px;
+}
+
+
+.db{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+  }
+
+
+  .db .list-inline-item{
+    margin-right: 10px;
+    padding-right:20px;
+    font-size: 100px;
+
+
+  }
+
+  .os{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+  }
+
+
+  .os .list-inline-item{
+    margin-right: 10px;
+  }
+
+  .vc{
+    display: flex;
+    flex-direction: row;
+    font-size: 70px;
+    margin:10px;
+  }
+
+
+  .vc .list-inline-item{
+    margin-right: 10px;
+  }
+
+
+/* Hero section */
+#hero {
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.btn-1{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 100%;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+}
+
+.back-to-top {
+    font-family: 'Raleway', sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+  }
+
+
+.LinkedIn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* About section */
+#about h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+}
+
+#experience h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+}
+
+#experience h3 {
+    font-size:2rem;
+    margin-bottom: 10px;
+}
+
+#education h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+}
+
+#education h3 {
+    font-size:2rem;
+    margin-bottom: 20px;
+}
+
+#education h4 {
+    font-size:1.4rem;
+    margin-bottom: 20px;
+}
+
+#skill h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+}
+
+#skill h3 {
+    font-size:1.7rem;
+    margin-bottom: 20px;
+    color: #006B38FF;
+}
+
+
+
+
+/* Projects section */
+#projects h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+    
+}
+
+.project {
+    margin-bottom: 60px;
+    /* align-items: center;
+    text-align: center; */
+}
+
+.project img {
+    width: 70%;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 40px;
+    border-color:black;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact h2 {
+    font-size:4rem;
+    margin-bottom: 20px;
+    
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.placeholder {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+form .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #006B38FF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}

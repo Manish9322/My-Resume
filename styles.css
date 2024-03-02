@@ -1,13 +1,8 @@
-/* Reset some default styles */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    /* CSS rules for mobile devices */
-}
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -79,6 +74,8 @@ flex-direction: column;
 .nav-links {
     margin-left: auto;
 }
+
+
 
 .psl{
     display: flex;
@@ -364,3 +361,230 @@ footer {
     text-decoration: none;
     padding: 5px;
 }
+
+
+
+    @media (max-width:799px) {
+    .nav-links{
+        float: none;
+            
+        }
+
+    .project img {
+        width: 100%;
+        padding: 20px;
+        }
+
+    .project h3,
+    .project p,
+    .text-primary,
+    #education p
+        {
+        padding-left: 20px;
+        }
+
+        #about h2,
+        #experience h2,
+        #skill h2,
+        #skill h3,
+        .psl,
+        .wdf,
+        .wdb,
+        .db,
+        .os,
+        .vc,
+        #education h2,
+        #projects h2
+        {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .back-to-top {
+            width: 130px;
+            height: 70px;
+            font-size: 20px;
+
+        }
+
+        .section-p1 {
+            padding: 40px 40px;
+        }
+    
+        #navbar {
+            display: flex;
+            flex-direction: column;
+    
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            right: -300px;
+            height: 100vh;
+            width: 300px;
+            background-color: #E3E6F3;
+            box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+            padding: 80px 0 0 10px;
+            transition: 0.5s ease;
+        }
+    
+        #navbar.active {
+            right: 0px;
+        }
+    
+        #navbar li {
+            margin-bottom: 25px;
+        }
+
+        #mobile {
+            display: flex;
+            align-items: center;
+        
+        }
+        
+        #mobile i {
+            color: #1a1a1a;
+            font-size: 24px;
+            padding-left: 20px;
+        }
+        
+        #close {
+            display: initial;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            color: #222;
+            font-size: 24px;
+        
+        }
+    } 
+
+    @media (max-width:477px) {
+        
+        header {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav{
+            width: 100%;
+        }
+
+        #hero {
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            font-size: 40px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container p{
+            font-size: 40px;
+        }
+
+        .logo {
+            display: none;
+        }
+
+        html{
+            width: 100%;
+            display: flex;
+        }
+
+        .nav-links a {
+            font-size: 30px;
+        }
+
+
+        .btn-1{
+            height: 5rem;
+            width: 5rem; 
+            font-size: 2rem; 
+        }
+
+        .btn {
+            height: 4rem;
+            width: 14rem; 
+            font-size: 2rem;
+            top: 0;
+            right: 0;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        .back-to-top {
+            width: 200px;
+            height: 80px;
+            font-size: 30px;
+        }
+
+        #experience h2 ,
+        #about h2,
+        #skill h2,
+        #education h2,
+        #projects h2{
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+
+        #experience h3 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        #skill h3 {
+            font-size: 2.7rem;
+        }
+
+        #education h3,
+        .project h3{
+            font-size: 3.0rem;
+            text-align: center;
+        }
+
+        #education h4{
+            font-size: 2.0rem;
+            text-align: center;
+        }
+
+        #education p{
+            font-size: 2.0rem;
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 100px;
+            text-align: center;
+        }
+
+        .project img{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .psl, 
+        .wdf, 
+        .wdb, 
+        .db, 
+        .os, 
+        .vc{
+            font-size: 100px;
+            justify-content: center;
+        }
+
+        .wdb .list-inline-item,
+        .db .list-inline-item
+         {
+            margin-right: 10px;
+            padding-right: 20px;
+            font-size: 120px;
+        }
+
+    }
